@@ -1,0 +1,33 @@
+.block-1 {
+  padding: 60px;
+  border: black solid 2px;
+
+  .col-1 {
+    width: (100% / 3);
+  }
+
+  &__obj {
+    height: 100px;
+
+    &_blue {
+      background: #9494ff;
+
+    }
+
+    &_green {
+      background: #94f894;
+
+    }
+
+    &_red {
+      background: #fc7878;
+
+    }
+
+    &.disabled {
+      background: #919191;
+    }
+  }
+}
+
+

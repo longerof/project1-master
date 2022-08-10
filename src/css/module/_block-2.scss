@@ -1,0 +1,40 @@
+.block-2 {
+  border: black solid 2px;
+  height: 500px;
+  margin-top: 50px;
+
+  .col-2 {
+    width: (100% / 2);
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__obj {
+    height: 400px;
+    width: 600px;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+
+    &_text {
+      height: 100px;
+      width: 400px;
+      display: inline-block;
+      vertical-align: middle;
+      line-height: 1.25;
+      border: black solid 1.5px;
+    }
+  }
+
+  &__obj {
+    height: 100px;
+    width: 400px;
+
+    &_img {
+      border: black dashed 1.5px;
+    }
+  }
+}
